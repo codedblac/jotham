@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: helbsacco-backend
+    env: node
+    region: frankfurt
+    plan: free
+    buildCommand: npm ci
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CLIENT_URL
+        value: https://helbsacco.co.ke
+      - key: MAIL_USER
+        value: info@helbsacco.co.ke
+      - key: MAIL_RECEIVER
+        value: memberservices@helbsacco.co.ke
+      # Set these two securely in Render dashboard or via 'fromSecret'
+      - key: MAIL_PASS
+        sync: false
+      - key: MAIL_HOST
+        value: mail.helbsacco.co.ke
+      - key: MAIL_PORT
+        value: "465"
+      - key: MAIL_SECURE
+        value: "true"
