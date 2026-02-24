@@ -18,6 +18,7 @@ npm install --save-dev nodemon
 # Project structure
 mkdir -p src/routes src/controllers src/config src/middleware
 
+
 ########################################
 # src/index.js
 ########################################
