@@ -16,6 +16,7 @@ npm install express cors dotenv nodemailer express-rate-limit express-validator 
 npm install --save-dev nodemon
 
 # Project structure
+
 mkdir -p src/routes src/controllers src/config src/middleware
 
 
