@@ -249,6 +249,7 @@ EOL
 
 ########################################
 # render.yaml (Blueprint deploy)
+
 ########################################
 cat <<'EOL' > render.yaml
 services:
