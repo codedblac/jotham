@@ -23,7 +23,7 @@ mkdir -p src/routes src/controllers src/config src/middleware
 
 # src/index.js
 
-###########################
+#################
 
 
 
