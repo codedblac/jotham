@@ -168,6 +168,7 @@ EOL
 ########################################
 # src/config/mailer.js
 ########################################
+
 cat <<'EOL' > src/config/mailer.js
 import nodemailer from 'nodemailer';
 
