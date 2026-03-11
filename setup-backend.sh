@@ -118,6 +118,7 @@ router.post('/', validateContact, sendContactMessage);
 export default router;
 EOL
 
+
 ########################################
 # src/controllers/contactController.js
 ########################################
