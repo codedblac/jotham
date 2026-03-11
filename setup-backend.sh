@@ -25,8 +25,6 @@ mkdir -p src/routes src/controllers src/config src/middleware
 
 
 
-
-
 cat <<'EOL' > src/index.js
 import express from 'express';
 import cors from 'cors';
