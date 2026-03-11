@@ -208,6 +208,7 @@ EOL
 ########################################
 # src/middleware/errors.js
 ########################################
+
 cat <<'EOL' > src/middleware/errors.js
 export const notFound = (req, res, next) => {
   res.status(404).json({ success: false, error: `Not Found - ${req.originalUrl}` });
