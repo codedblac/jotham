@@ -205,7 +205,6 @@ EOL
 
 ########################################
 # src/middleware/errors.js
-
 ########################################
 cat <<'EOL' > src/middleware/errors.js
 export const notFound = (req, res, next) => {
