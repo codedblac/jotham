@@ -122,6 +122,7 @@ EOL
 # src/controllers/contactController.js
 ########################################
 
+
 cat <<'EOL' > src/controllers/contactController.js
 import { validationResult } from 'express-validator';
 import { transporter, MAIL_USER, MAIL_RECEIVER } from '../config/mailer.js';
